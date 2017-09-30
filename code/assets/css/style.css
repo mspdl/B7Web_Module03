@@ -51,7 +51,32 @@ body {
 }
 .top-right a {
 	float: right;
+	margin-right: 3px;
 }
 .top-right input {
 	float: right;
+}
+.top2 {
+	height: 95px;
+	background-color: white;
+	color: black;
+}
+.top2-internal {
+	width: 100%;
+	max-width: 1040px;
+	height: 95px;
+	margin: auto;
+	background-color: #999;
+}
+.logo {
+	width: 230px;
+	height: 95px;
+	float: left;
+}
+.top2 .banner {
+	width: 650px;
+	height: 80px;
+	float: right;
+	margin-top: 7px;
+	background-color: red;
 }
