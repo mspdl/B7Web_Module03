@@ -222,6 +222,7 @@ body {
 	width: 99999999px;
 	height: 335px;
 	background-color: #DDD;
+	transition: all 1.3s;
 }
 .slide {
 	height: 335px;
@@ -230,6 +231,50 @@ body {
 	background-position: center;
 	background-size: cover;
 }
-.slide1 {
-	background-image: url('http://www.google.com.br/logos/google.jpg');
+.slide-1 {
+	background-image: url('../img/slide1.jpg');
+}
+.slide-2 {
+	background-image: url('../img/slide2.jpg');
+}
+.slide-3 {
+	background-image: url('../img/slide3.jpg');
+}
+.slide-4 {
+	background-image: url('../img/slide4.jpg');
+}
+.slide-info {
+	height: 70px;
+	background: rgba(0,0,0,0.5);
+    background: -webkit-linear-gradient(rgba(255,255,255,0.5), rgba(0,0,0,0.7));
+    background: -o-linear-gradient(rgba(255,255,255,0.5), rgba(0,0,0,0.7));
+    background: -moz-linear-gradient(rgba(255,255,255,0.5), rgba(0,0,0,0.7));
+    background: linear-gradient(rgba(255,255,255,0.5), rgba(0,0,0,0.7));
+    margin-top: 265px;
+}
+.slide-info-subject {
+	font-size: 20px;
+	color: white;
+	padding-top: 15px;
+	padding-left: 20px;
+}
+.slide-info-subtitle {
+	font-size: 13px;
+	color: white;
+	padding-left: 20px;
+}
+.slideshow-guide {
+	position: absolute;
+	width: 200px;
+	height: 20px;
+	padding: 2px 2px;
+}
+.guide {
+	width: 20px;
+	height: 20px;
+	float: left;
+	margin-right: 5px;
+	cursor: pointer;
+	background-color: #CCC;
+	border-radius: 10px;
 }
