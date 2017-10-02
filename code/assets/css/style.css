@@ -180,10 +180,8 @@ body {
 	margin-left: 12px;
 }
 .left-side {
-	min-height: 200px;
 	width: 753px;
 	float: left;
-	background-color: #555;
 }
 .widget {
 	border: 1px solid #CCC;
@@ -214,4 +212,24 @@ body {
 .news-item a {
 	text-decoration: none;
 	color: black;
+}
+.slideshow {
+	height: 335px;
+	background-color: #CCC;
+	overflow: hidden;
+}
+.slideshow-area {
+	width: 99999999px;
+	height: 335px;
+	background-color: #DDD;
+}
+.slide {
+	height: 335px;
+	float: left;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.slide1 {
+	background-image: url('http://www.google.com.br/logos/google.jpg');
 }
