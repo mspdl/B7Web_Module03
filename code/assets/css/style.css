@@ -201,6 +201,7 @@ body {
 	padding-top: 5px;
 	padding-bottom: 5px;
 	text-align: center;
+	overflow: hidden;
 }
 .news-item {
 	font-size: 14px;
@@ -263,7 +264,7 @@ body {
 	color: white;
 	padding-left: 20px;
 }
-.slideshow-guide {
+.slideshow-guide-box {
 	position: absolute;
 	width: 200px;
 	height: 20px;
