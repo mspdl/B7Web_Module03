@@ -335,3 +335,29 @@ body {
 	font-size: 30px;
 	width: 384px;
 }
+@media only screen and (max-width: 1057px) {
+	.top-internal,
+	.top2-internal,
+	.menu-internal,
+	.last-news-internal,
+	.container-internal {
+		max-width: 890px;
+	}
+
+	.left-side {
+		width: 600px;
+	}
+
+	.main-news { 
+		width: 278px;
+	}
+
+	.main-news .news-img,
+	.main-news .news-img img,
+	.main-news .news-subject {
+		width: 245px;
+	}
+	.main-news .news-subject {
+		font-size: 25px;
+	}
+}
