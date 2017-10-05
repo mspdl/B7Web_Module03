@@ -282,12 +282,12 @@ body {
 }
 .main-news {
 	width: 430px;
-	height: 420px;
+	height: auto;
 	float: left;
 }
 .secondary-news {
 	width: 320px;
-	height: 420px;
+	height: auto;
 	float: left;
 }
 .clear {
@@ -335,7 +335,7 @@ body {
 	font-size: 30px;
 	width: 384px;
 }
-@media only screen and (max-width: 1057px) {
+@media only screen and (min-width: 906px) and (max-width: 1057px) {
 	.top-internal,
 	.top2-internal,
 	.menu-internal,
@@ -359,5 +359,125 @@ body {
 	}
 	.main-news .news-subject {
 		font-size: 25px;
+	}
+}
+
+@media only screen and (min-width: 783px) and (max-width: 906px) {
+	.top-internal,
+	.top2-internal,
+	.menu-internal,
+	.last-news-internal,
+	.container-internal {
+		max-width: 758px;
+	}
+
+	.top2 .banner {
+		display: none;
+	}
+
+	.top2 .logo {
+		float: none;
+		margin: auto;
+		padding-top: 20px;
+	}
+
+	.container .righ-side {
+		display: none;
+	}
+
+	.container .left-side {
+		float: none;
+		width: auto;
+	}
+	.left-side {
+		width: 600px;
+	}
+
+	.main-news { 
+		width: 436px;
+	}
+
+	.main-news .news-img,
+	.main-news .news-img img,
+	.main-news .news-subject {
+		width: 410px;
+	}
+}
+
+@media only screen and (max-width: 783px) {
+	.top-internal,
+	.top2-internal,
+	.menu-internal,
+	.last-news-internal,
+	.container-internal {
+		max-width: 320px;
+	}
+
+	.top-left,
+	.top-right {
+		float: none;
+		width: 100%;
+		margin-top: 0;
+		width: 285px;
+	}
+	.top {
+		height: 60px;
+	}
+
+	.top2 .banner {
+		display: none;
+	}
+
+	.top2 .logo {
+		float: none;
+		margin: auto;
+		padding-top: 20px;
+	}
+
+	.menu-internal {
+		display: none;
+	}
+	.last-news {
+		display: none;
+	}
+
+	.container .righ-side {
+		display: none;
+	}
+
+	.container .left-side {
+		float: none;
+		width: auto;
+	}
+	.left-side {
+		margin-top: 10px;
+		width: 600px;
+	}
+
+	.main-news { 
+		width: 320px;
+		margin-bottom: 20px;
+	}
+
+	.main-news .news-img,
+	.main-news .news-img img,
+	.main-news .news-subject {
+		width: 290px;
+	}
+
+	.secondary-news {
+		width: 300px;
+		margin: auto;
+		float: none;
+	}
+	.news-subject,
+	.news-info {
+		width: 206px;
+	}
+	.main-news .news-subject {
+		font-size: 20px;
+	}
+	.item-news {
+		clear: both;
 	}
 }
