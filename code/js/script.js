@@ -34,3 +34,13 @@ function manualChangeSlide(pos) {
 	document.getElementsByClassName('guide')[slideItem].style.backgroundColor = '#777';
 	document.getElementsByClassName("slideshow-area")[0].style.marginLeft = "-" + (slideshowWidth * slideItem) + "px";
 }
+
+function toggleMenu() {
+	menu = document.getElementById("menu-list");
+
+	if (menu.style.display == "none"){
+		menu.style.display = "block";
+	} else {
+		menu.style.display = "none";
+	}
+}
